@@ -1,0 +1,30 @@
+:root {
+	--c1: #F7F7F7;
+	--c2: #EDEDED;
+	--c3: #DEDEDE;
+	--c4: #CCCCCC;
+	--c5: #B3B3B3;
+	--c6: #9C9C9C;
+	--c7: #707070;
+	--c8: #595959;
+	--c9: #3F3F3F;
+	--c10: #2F2F2F;
+	--c11: #111111;
+	--c12: #000000;
+	--p1: #FFBB00;
+	--p2: #E5A40B;
+	--p3: #A66E00;
+	--p4: #664400;
+	--p5: #332200;
+	--gradiente: linear-gradient(#FFBF00, #F2A50C);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	list-style: none;	
+}
