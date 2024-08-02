@@ -1,2 +1,12 @@
-@import './global.css';
-@import './cabecalho.css';
+@import './global/global.css';
+@import './global/cabecalho.css';
+
+/* Utilidades */
+@import './utilidades/componentes.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
+
+/* Home */
+@import './home/introducao.css';
+@import './home/bicicletas.css';
+@import './home/diferencial.css';

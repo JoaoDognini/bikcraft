@@ -9,17 +9,22 @@
 		content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="shortcut icon" href="./imgs/favicon.svg" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
 	<header class="cabecalho-bg">
-		<div class="cabecalho">
+		<div class="cabecalho container">
 			<a href="./">
 				<img src="./imgs/bikcraft.svg" alt="" />
 			</a>
 
 			<nav aria-label="primaria">
-				<ul class="cabecalho-menu">
+				<ul class="cabecalho-menu font-1-m branco">
 					<li>
 						<a href="./">
 							Bicicletas
@@ -39,6 +44,83 @@
 			</nav>
 		</div>
 	</header>
+
+	<main class="introducao-bg">
+		<div class="introducao container">
+			<div class="introducao-conteudo">
+				<h1 class="font-1-xxl branco">Bicicletas feitas sob medida<span class="p1">.</span></h1>
+				<p class="font-2-l c5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o
+					cliente. Explore o mundo
+					na sua velocidade com a Bikcraft.</p>
+				<a class="botao" href="./bicicletas.html">Selecione a sua</a>
+			</div>
+			<img src="./imgs/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
+		</div>
+	</main>
+
+	<section class="bicicletas">
+		<h2 class="titulo font-1-xxl">escolha a sua<span class="p1">.</span></h2>
+		<ul>
+			<li>
+				<a href="./">
+					<img src="./imgs/bicicletas/magic-home.jpg" />
+					<h3 class="font-1-xl c11">Magic Might</h3>
+					<span class="font-2-m c8">R$2499</span>
+				</a>
+			</li>
+			<li>
+				<a href="./">
+					<img src="./imgs/bicicletas/nebula-home.jpg" />
+					<h3 class="font-1-xl c11">Nebula Cosmic</h3>
+					<span class="font-2-m c8">R$3999</span>
+				</a>
+			</li>
+			<li>
+				<a href="./">
+					<img src="./imgs/bicicletas/nimbus-home.jpg" />
+					<h3 class="font-1-xl c11">Nimbus Stark</h3>
+					<span class="font-2-m c8">R$4999</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+	<section class="diferencial-bg">
+		<div class="diferencial container">
+			<div class="diferencial-conteudo">
+				<span class="font-2-l-b c6">Tecnologia Avançada</span>
+				<h1 class="font-1-xxl branco">você escolhe as suas cores e componentes<span class="p1">.</span></h1>
+				<p class="font-2-l c5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o
+					seu corpo e altura,
+					garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente
+					as
+					suas cores.</p>
+				<a href="./bicicletas.html" class="link">Escolha um Modelo</a>
+				<ul class="diferencial-lista">
+					<li>
+						<img src="./imgs/icones/eletrica.svg" />
+						<h3 class="font-1-m branco">Motor elétrico</h3>
+						<p class="font-2-s c5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até
+							120h. A
+							bateria é
+							recarregada com a sua energia gasta ao pedalar.</p>
+					</li>
+					<li>
+						<img src="./imgs/icones/rastreador.svg" />
+						<h3 class="font-1-m branco">Rastreador</h3>
+						<p class="font-2-s c5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+							rastreadores e
+							sistemas
+							anti-furto
+							para garantir o seu sossego.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="diferencial-imagem">
+				<img src="./imgs/fotos/tecnologia.jpg" />
+			</div>
+		</div>
+	</section>
 </body>
 
 </html>

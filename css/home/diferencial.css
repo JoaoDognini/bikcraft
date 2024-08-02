@@ -1,0 +1,88 @@
+.diferencial-bg {
+	background-color: var(--c11);
+	box-shadow: inset 0 -80px var(--branco),
+		inset 0 80px var(--branco);
+}
+
+.diferencial {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+
+.diferencial-conteudo {
+	margin: auto 0;
+	padding: 120px 0;
+}
+
+.diferencial-conteudo>span {
+	display: block;
+	margin-bottom: 1.25rem;
+}
+
+.diferencial-conteudo h1 {
+	margin-bottom: 2rem;
+}
+
+.diferencial-conteudo > p {
+	margin-bottom: 1.25rem;
+}
+
+.diferencial-conteudo a {
+	margin-bottom: 80px;
+}
+
+.diferencial-lista {
+	display: flex;
+	gap: 40px;
+}
+
+.diferencial-lista li {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.diferencial-lista li h3 {
+	width: max-content;
+}
+
+.diferencial-lista li img {
+	width: 16px;
+}
+
+.diferencial-imagem img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: left;
+}
+
+@media (max-width: 800px) {
+	.diferencial-bg {
+		box-shadow: initial;
+	}
+
+	.diferencial {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+
+	.diferencial-conteudo {
+		padding: 2rem 0;
+	}
+
+	.diferencial-conteudo a {
+		margin-bottom: 60px;
+	}
+
+	.diferencial-imagem img {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.diferencial-lista {
+		flex-direction: column;
+	}
+}
