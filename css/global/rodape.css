@@ -1,0 +1,82 @@
+.rodape-bg {
+	background-color: #000;
+}
+
+.rodape {
+	display: grid;
+	grid-template-columns: repeat(3, max-content);
+	grid-template-rows: 1fr auto;
+	gap: 2rem 8rem;
+	padding-top: 3.5rem;
+}
+
+.rodape img {
+	height: max-content;
+}
+
+.rodape h3 {
+	margin-bottom: 2rem;
+	color: var(--branco);
+}
+
+.rodape ul li div {
+	display: flex;
+	gap: 20px;
+}
+
+.rodape .contato, .rodape .informacoes {
+	max-width: max-content;
+}
+
+.rodape .contato li:nth-child(2n)::after {
+	content: "";
+	height: 1px;
+	background-color: var(--c11);
+	display: block;
+	margin: 1rem 0;
+	width: 100%;
+}
+
+.rodape .informacoes {
+	font-weight: 500;
+}
+
+.rodape span {
+	grid-column: 1 / -1;
+	font: 600 1.125rem/1.7 "Roboto", sans-serif;
+}
+
+@media (max-width: 850px) {
+	.rodape {
+		gap: 2rem 0;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 650px) {
+	.rodape {
+		grid-template-columns: auto 1fr;
+		column-gap: 3rem;
+	}
+
+	.rodape h3 {
+		margin-bottom: 1rem;
+	}
+
+	.rodape .informacoes {
+		grid-column: 2;
+	}
+}
+
+@media (max-width: 500px) {
+	.rodape {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.rodape img {
+		max-width: max-content;
+	}
+}
