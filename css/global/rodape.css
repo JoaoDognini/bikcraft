@@ -79,4 +79,8 @@
 	.rodape img {
 		max-width: max-content;
 	}
+
+	.contato  li div {
+		justify-content: center;
+	}
 }

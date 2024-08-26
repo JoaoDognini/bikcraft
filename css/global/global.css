@@ -28,3 +28,14 @@ a {
 	padding: 1rem 3rem;
 	margin: 0 auto;
 }
+
+.topo-titulo-bg {
+	background-color: var(--c11);
+	padding: 3rem 0;
+}
+
+@media (max-width: 800px) {
+	.topo-titulo-bg {
+		padding: 1.5rem 0;
+	}
+}

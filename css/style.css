@@ -15,3 +15,6 @@
 @import './home/diferencial.css';
 @import './home/parceiros.css';
 @import './home/depoimentos.css';
+
+/* Bicicletas */
+@import './bicicletas/nossas-bicicletas.css';

@@ -18,6 +18,25 @@
 	color: var(--c2);
 }
 
+.botao.seta {
+	display: flex;
+	align-items: center;
+}
+
+.botao.seta::after {
+	content: "";
+	background: url(../../imgs/icones/seta.svg);
+	display: inline-block;
+	width: 18px;
+	height: 10px;
+	margin-left: 12px;
+	transition: transform 0.2s;
+}
+
+.botao.seta:hover::after {
+	transform: translateX(4px);
+}
+
 .botao.secundario:hover {
 	background: none;
 	background-color: var(--c9);
