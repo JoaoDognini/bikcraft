@@ -24,11 +24,11 @@
 	gap: 20px;
 }
 
-.rodape .contato, .rodape .informacoes {
+.rodape .contato-rodape, .rodape .informacoes-rodape {
 	max-width: max-content;
 }
 
-.rodape .contato li:nth-child(2n)::after {
+.rodape .contato-rodape li:nth-child(2n)::after {
 	content: "";
 	height: 1px;
 	background-color: var(--c11);
@@ -37,7 +37,7 @@
 	width: 100%;
 }
 
-.rodape .informacoes {
+.rodape .informacoes-rodape {
 	font-weight: 500;
 }
 
@@ -63,7 +63,7 @@
 		margin-bottom: 1rem;
 	}
 
-	.rodape .informacoes {
+	.rodape .informacoes-rodape {
 		grid-column: 2;
 	}
 }
@@ -80,7 +80,7 @@
 		max-width: max-content;
 	}
 
-	.contato  li div {
+	.contato-rodape  li div {
 		justify-content: center;
 	}
 }

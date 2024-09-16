@@ -1,0 +1,163 @@
+.contato {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.contato-bg {
+	background-color: var(--c11);
+	box-shadow: inset 0 -220px var(--branco);
+}
+
+.contato-informacoes {
+	background-color: #000;
+	padding: 3.75rem;
+	color: #fff;
+	border-radius: 5px 0 0 5px;
+}
+
+.contato-informacoes h3 {
+	margin-bottom: 3.75rem;
+}
+
+ul div:not(:last-child) {
+	display: flex;
+	flex-direction: column;
+}
+
+ul div span {
+	display: block;
+}
+
+.contato-informacoes ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.contato-informacoes .redes {
+	display: flex;
+	gap: 2rem;
+	margin-top: 1.75rem;
+}
+
+.contato-formulario {
+	padding: 3.75rem;
+	border-radius: 0 5px 5px 0;
+	background-color: #FFF;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+}
+
+.grupo-campo {
+	display: flex;
+	flex-direction: column;
+}
+
+.grupo-campo label {}
+
+.grupo-campo input {
+	padding: 0.75rem;
+	border-radius: 5px;
+	border: 1px solid var(--c2);
+}
+
+.mensagem {
+	grid-column: 1;
+}
+
+.mensagem textarea {
+	padding: 0.75rem;
+	margin-bottom: 2rem;
+}
+
+form .botao {
+	border: none;
+	grid-column: 1;
+}
+
+form .botao:hover {
+	cursor: pointer;
+}
+
+.lojas-locais {
+	padding-top: 7.5rem;
+	padding-bottom: 7.5rem;
+}
+
+.lojas-locais h1 {
+	margin-bottom: 3.75rem;
+}
+
+.lojas {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.5rem;
+}
+
+.lojas-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.lojas-card h3,
+.horario-funcionamento {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.lojas-card h3::before {
+	content: "";
+	width: 12px;
+	height: 8px;
+	display: block;
+	background-color: var(--p1);
+}
+
+.informacoes-lojas {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 2rem 0;
+	margin-left: 2rem;
+	position: relative;
+}
+
+.informacoes-lojas div {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.informacoes-lojas div::before {
+	content: "";
+	width: 2px;
+	height: 48px;
+	display: block;
+	background-color: var(--c3);
+	position: absolute;
+	left: -12px;
+}
+
+.informacoes-lojas span {
+	font-weight: 500;
+}
+
+.horario-funcionamento {
+	font-weight: 600;
+}
+
+.horario-funcionamento::before {
+	content: "";
+	background-image: url('../../imgs/icones/horario.svg');
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.lojas-card-informacoes {
+	padding: 2.5rem;
+}
